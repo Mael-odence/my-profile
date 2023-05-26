@@ -1,0 +1,113 @@
+h1 {
+	font-family:  'Smokum', cursive;
+}
+
+body {  
+	background-color: rgb(155, 164, 181);  
+  font-size: 15px;
+	line-height: 1.8;
+	letter-spacing: 1px;
+  color: rgb(33, 42, 62);
+	text-align: justify;
+	text-decoration: none;
+  font-weight: bolder;
+  font-family: font-family: 'Permanent Marker', cursive;
+}
+h2, h3 {
+font-family: 'Oswald', sans-serif 
+}
+a {
+  color: rgb(39, 55, 77);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.img-circle { 
+  border-radius: 50%;
+}
+.img-bordered{
+	border: 10px solid rgb(82, 109, 130);
+	box-shadow: 0px 10px 10px rgb(221, 230, 237);
+}
+
+.container {
+  width: 700px; 
+  margin: 60px auto; 
+}
+
+.card {
+	background-color: rgb(238, 238, 238);
+	border-radius: 5px;
+	box-shadow: 0px 10px 10px rgb(221, 230, 237);
+	text-align: center;
+	margin: 20px;
+	padding: 10px;
+}
+
+.btn {
+	background-color:skyblue ;
+	color: black;
+	padding : 10px 15 px;
+	border-radius: 5px;
+}
+
+.btn :hover {
+	background-color:  black;
+	color: whitesmoke;
+}
+
+.otherbtn {
+	background-color:skyblue ;
+	color: black;
+	padding : 20px 20 px;
+	border-radius: 5px;
+}
+
+.otherbtn :hover {
+	background-color:  black;
+	color: whitesmoke;
+}
+
+.horizontal {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.horizontal li {
+	display: inline;
+	padding: 10px;
+	font-size: 50px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 	800px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+.image {
+width: 100%;
+height: 100%;
+}
+.image img {
+-webkit-transition: all 1s ease; 
+-moz-transition: all 1s ease; 
+-ms-transition: all 1s ease; 
+-o-transition: all 1s ease; 
+transition: all 1s ease;
+}
+.image:hover img {
+-webkit-transform:scale(1.15); 
+-moz-transform:scale(1.15); 
+-ms-transform:scale(1.15); 
+-o-transform:scale(1.15); 
+transform:scale(1.15);
+}
